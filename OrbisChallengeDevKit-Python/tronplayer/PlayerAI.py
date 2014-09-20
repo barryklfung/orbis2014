@@ -17,25 +17,28 @@ class Powers():
 class PlayerAI():
 
 	def __init__(self):
-		opponent_has_power = false;
+		self.op_has_power = False
+		self.map = 0
+		self.powerups = 0
+		self.op_power = 0
 		return
 
 	def new_game(self, game_map, player_lightcycle, opponent_lightcycle):
 		start = time.time()
 		map_file = open('map.csv','w')
 		map_length = len(game_map)
-		map = [[0 for j in range(map_length)] for i in range(map_length)]
-		powerups = []
+		self.map = [[0 for j in range(map_length)] for i in range(map_length)]
+		self.powerups = []
 		for i in range(map_length):
 			for j in range(map_length):
-				map[i][j] = game_map[j][i]
-				if map[i][j] == 'powerup':
+				self.map[i][j] = game_map[j][i]
+				if self.map[i][j] == 'powerup':
 					x = Powers(j,i)
-					powerups.append(x)
-				map_file.write('%s,'%(map[i][j]))
+					self.powerups.append(x)
+				map_file.write('%s,'%(self.map[i][j]))
 			map_file.write('\n')
-		for i in range(len(powerups)):
-			print '%d %d, '%(powerups[i].pos_x,powerups[i].pos_y)
+		for i in range(len(self.powerups)):
+			print '%d %d, '%(self.powerups[i].pos_x,self.powerups[i].pos_y)
 		end = time.time()
 		print end - start
 		return
@@ -47,19 +50,73 @@ class PlayerAI():
 		my_y = my_position[1]
 		my_direction = player_lightcycle['direction']
 		
-		opponent_position = opponent_lightcycle['position']
-		opponent_x = opponent_position[0]
-		opponent_y = opponent_position[1]
-		opponent_direction = opponent_lightcycle['direction']
+		op_position = opponent_lightcycle['position']
+		op_x = op_position[0]
+		op_y = op_position[1]
+		op_direction = opponent_lightcycle['direction']
 		
-		if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
-			opponent_has_power = opponent_lightcycle['hasPowerUp']
-			if opponent_has_power == true:
-				#Obtained power
-				print 
-			else
-				#used
-		#Update map
+		if op_direction == Direction.UP :
+			self.map[op_x][op_y+1] = TRAIL
+		elif op_direction == Direction.DOWN :
+			self.map[op_x][op_y-1] = TRAIL
+		elif op_direction == Direction.LEFT :
+			self.map[op_x+1][op_y] = TRAIL
+		else :
+			self.map[op_x-1][op_y] = TRAIL
+		
+		if my_direction == Direction.UP :
+			self.map[op_x][op_y+1] = TRAIL
+		elif my_direction == Direction.DOWN :
+			self.map[op_x][op_y-1] = TRAIL
+		elif my_direction == Direction.LEFT :
+			self.map[op_x+1][op_y] = TRAIL
+		else :
+			self.map[op_x-1][op_y] = TRAIL
+		
+		for i in range(len(self.powerups)) :
+			if (op_x == self.powerups[i].pos_x) and (op_y == self.powerups[i].pos_y) :
+				if opponent_lightcycle['hasPowerup'] != self.op_has_power :
+					#Obtained power
+					self.op_has_power = opponent_lightcycle['hasPowerup']
+					self.op_power = opponent_lightcycle['powerupType']
+				else :
+					for j in range(5) :
+						for k in range(-2,2) :
+							if op_direction == Direction.UP :
+								if (op_x+k < len(game_map)) and (op_x+k >= 0) and (op_y-j < len(game_map)) and (op_y-j >= 0) :
+									self.map[op_x+k][op_y-j]=game_map[op_x+k][op_y-j]
+							elif op_direction == Direction.DOWN :
+								if (op_x+k < len(game_map)) and (op_x+k >= 0) and (op_y+j < len(game_map)) and (op_y+j >= 0) :
+									self.map[op_x+k][op_y+j]=game_map[op_x+k][op_y+j]
+							elif op_direction == Direction.LEFT :
+								if (op_x-j < len(game_map)) and (op_x-j >= 0) and (op_y+k < len(game_map)) and (op_y+k >= 0) :
+									self.map[op_x-j][op_y+k]=game_map[op_x-j][op_y+k]
+							else :
+								if (op_x+j < len(game_map)) and (op_x+j >= 0) and (op_y+k < len(game_map)) and (op_y+k >= 0) :
+									self.map[op_x+j][op_y+k]=game_map[op_x+j][op_y+k]
+				self.powerups.pop(i)
+			if (my_x == self.powerups[i].pos_x) and (my_y == self.powerups[i].pos_y) :
+				for j in range(5) :
+						for k in range(-2,2) :
+							if my_direction == Direction.UP :
+								if (my_x+k < len(game_map)) and (my_x+k >= 0) and (my_y-j < len(game_map)) and (my_y-j >= 0) :
+									self.map[my_x+k][my_y-j]=game_map[my_x+k][my_y-j]
+							elif my_direction == Direction.DOWN :
+								if (my_x+k < len(game_map)) and (my_x+k >= 0) and (my_y+j < len(game_map)) and (my_y+j >= 0) :
+									self.map[my_x+k][my_y+j]=game_map[my_x+k][my_y+j]
+							elif my_direction == Direction.LEFT :
+								if (my_x-j < len(game_map)) and (my_x-j >= 0) and (my_y+k < len(game_map)) and (my_y+k >= 0) :
+									self.map[my_x-j][my_y+k]=game_map[my_x-j][my_y+k]
+							else :
+								if (my_x+j < len(game_map)) and (my_x+j >= 0) and (my_y+k < len(game_map)) and (my_y+k >= 0) :
+									self.map[my_x+j][my_y+k]=game_map[my_x+j][my_y+k]
+				self.powerups.pop(i)
+		
+		if opponent_lightcycle['hasPowerup'] != self.op_has_power :
+			self.op_has_power = opponent_lightcycle['hasPowerup']
+			if self.op_has_power == False:
+				#Used
+				print 'Used'
 		
 		'''
 		Algo:
@@ -71,7 +128,7 @@ class PlayerAI():
 			Maximize our area
 			
 		Powerup check:
-			If invincibility && we have less area,
+			If invincibility and we have less area,
 				cut into opponent area
 			If bomb,
 				Cut more into opponent area
@@ -80,16 +137,16 @@ class PlayerAI():
 		'''	
 		randMove = random.randint(0, 3)
 		if randMove == 0:
-			#print "LEFT"
+			print "LEFT"
 			return PlayerActions.MOVE_LEFT
 		elif randMove == 1:
-			#print "RIGHT"
+			print "RIGHT"
 			return PlayerActions.MOVE_RIGHT
 		elif randMove == 2:
-			#print "DOWN"
+			print "DOWN"
 			return PlayerActions.MOVE_DOWN
 		else:
-			#print "UP"
+			print "UP"
 			return PlayerActions.MOVE_UP
 '''
 

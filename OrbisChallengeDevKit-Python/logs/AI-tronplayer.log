@@ -3106,3 +3106,2173 @@ INFO:root:20/09/2014 14:37:31 calling getMove for turn 6 for player 1
 INFO:root:20/09/2014 14:37:31 message sent for move 6: took 1 milliseconds
 INFO:root:20/09/2014 14:37:31 calling getMove for turn 7 for player 1
 INFO:root:20/09/2014 14:37:31 message sent for move 7: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:01:58 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:01:58 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:58 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:01:58 message sent for move 1: took 96 milliseconds
+INFO:root:20/09/2014 17:01:58 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:01:58 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:58 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:01:58 message sent for move 2: took 3 milliseconds
+INFO:root:20/09/2014 17:01:58 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:01:58 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:58 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:01:58 message sent for move 3: took 57 milliseconds
+INFO:root:20/09/2014 17:01:58 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:01:59 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:59 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:01:59 message sent for move 4: took 30 milliseconds
+INFO:root:20/09/2014 17:01:59 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:01:59 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:59 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:01:59 message sent for move 5: took 4 milliseconds
+INFO:root:20/09/2014 17:01:59 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 17:01:59 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:59 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 17:01:59 message sent for move 6: took 138 milliseconds
+INFO:root:20/09/2014 17:01:59 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 17:01:59 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:59 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 17:01:59 message sent for move 7: took 7 milliseconds
+INFO:root:20/09/2014 17:01:59 calling getMove for turn 8 for player 1
+ERROR:root:20/09/2014 17:01:59 Unexpected error during turn 8:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:01:59 writing response back for turn 8 for player 1
+INFO:root:20/09/2014 17:01:59 message sent for move 8: took 5 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 1: took 11 milliseconds
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 2: took 4 milliseconds
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 3: took 2 milliseconds
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 4: took 2 milliseconds
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 5: took 3 milliseconds
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 6: took 3 milliseconds
+INFO:root:20/09/2014 17:03:17 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 17:03:17 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:17 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 17:03:17 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:03:18 calling getMove for turn 8 for player 1
+ERROR:root:20/09/2014 17:03:18 Unexpected error during turn 8:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:03:18 writing response back for turn 8 for player 1
+INFO:root:20/09/2014 17:03:18 message sent for move 8: took 4 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:04:24 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:04:24 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:24 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:04:24 message sent for move 1: took 4 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 2: took 11 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 4: took 2 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 7: took 3 milliseconds
+INFO:root:20/09/2014 17:04:25 calling getMove for turn 8 for player 1
+ERROR:root:20/09/2014 17:04:25 Unexpected error during turn 8:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['isInvincible'] != opponent_has_power :
+UnboundLocalError: local variable 'opponent_has_power' referenced before assignment
+INFO:root:20/09/2014 17:04:25 writing response back for turn 8 for player 1
+INFO:root:20/09/2014 17:04:25 message sent for move 8: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:04:53 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:04:53 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerup'] != self.opponent_has_power :
+AttributeError: PlayerAI instance has no attribute 'opponent_has_power'
+INFO:root:20/09/2014 17:04:53 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:04:53 message sent for move 1: took 3 milliseconds
+INFO:root:20/09/2014 17:04:53 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:04:53 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerup'] != self.opponent_has_power :
+AttributeError: PlayerAI instance has no attribute 'opponent_has_power'
+INFO:root:20/09/2014 17:04:53 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:04:53 message sent for move 2: took 2 milliseconds
+INFO:root:20/09/2014 17:04:53 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:04:53 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerup'] != self.opponent_has_power :
+AttributeError: PlayerAI instance has no attribute 'opponent_has_power'
+INFO:root:20/09/2014 17:04:53 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:04:53 message sent for move 3: took 2 milliseconds
+INFO:root:20/09/2014 17:04:53 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:04:53 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerup'] != self.opponent_has_power :
+AttributeError: PlayerAI instance has no attribute 'opponent_has_power'
+INFO:root:20/09/2014 17:04:53 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:04:53 message sent for move 4: took 4 milliseconds
+INFO:root:20/09/2014 17:04:53 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:04:53 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 55, in get_move
+    if opponent_lightcycle['hasPowerup'] != self.opponent_has_power :
+AttributeError: PlayerAI instance has no attribute 'opponent_has_power'
+INFO:root:20/09/2014 17:04:53 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:04:53 message sent for move 5: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:08 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:08 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 6: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:05:09 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:05:09 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:05:10 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:05:10 message sent for move 11: took 1 milliseconds
+INFO:root:20/09/2014 17:05:10 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:05:10 message sent for move 12: took 1 milliseconds
+INFO:root:20/09/2014 17:05:10 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:05:10 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:05:10 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:05:10 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:05:10 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:05:10 message sent for move 15: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:13 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:13 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:05:13 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:13 message sent for move 2: took 2 milliseconds
+INFO:root:20/09/2014 17:05:13 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:13 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 6: took 8 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 8: took 3 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 9: took 16 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:05:14 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:05:14 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:05:15 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:05:15 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:05:15 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:05:15 message sent for move 14: took 30 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:22 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:22 message sent for move 1: took 2 milliseconds
+INFO:root:20/09/2014 17:05:22 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:22 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:05:22 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:22 message sent for move 3: took 2 milliseconds
+INFO:root:20/09/2014 17:05:22 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:22 message sent for move 4: took 2 milliseconds
+INFO:root:20/09/2014 17:05:22 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:22 message sent for move 5: took 5 milliseconds
+INFO:root:20/09/2014 17:05:23 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:23 message sent for move 6: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:25 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:25 message sent for move 1: took 2 milliseconds
+INFO:root:20/09/2014 17:05:25 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:25 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:05:25 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:25 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:05:25 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:25 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 6: took 3 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 11: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 12: took 1 milliseconds
+INFO:root:20/09/2014 17:05:26 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:05:26 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 16: took 2 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 17: took 2 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 18: took 2 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 21: took 1 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 22: took 1 milliseconds
+INFO:root:20/09/2014 17:05:27 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:05:27 message sent for move 23: took 2 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 24: took 1 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 25: took 1 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 26: took 1 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 27: took 1 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 28: took 2 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 29: took 1 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 30: took 2 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 31: took 2 milliseconds
+INFO:root:20/09/2014 17:05:28 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:05:28 message sent for move 32: took 2 milliseconds
+INFO:root:20/09/2014 17:05:29 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:05:29 message sent for move 33: took 2 milliseconds
+INFO:root:20/09/2014 17:05:29 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:05:29 message sent for move 34: took 2 milliseconds
+INFO:root:20/09/2014 17:05:29 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:05:29 message sent for move 35: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 2: took 2 milliseconds
+INFO:root:20/09/2014 17:05:33 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:33 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:05:34 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:34 message sent for move 6: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:38 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:38 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:05:38 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:38 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:05:38 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:38 message sent for move 3: took 2 milliseconds
+INFO:root:20/09/2014 17:05:38 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:05:38 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:05:38 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:05:38 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:05:38 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:05:38 message sent for move 6: took 1 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 8: took 0 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 9: took 4 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 11: took 1 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:05:39 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:05:39 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 16: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 21: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 22: took 1 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 23: took 2 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 24: took 2 milliseconds
+INFO:root:20/09/2014 17:05:40 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:05:40 message sent for move 25: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 26: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 27: took 2 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 28: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 29: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 30: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 31: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 32: took 2 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 33: took 1 milliseconds
+INFO:root:20/09/2014 17:05:41 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:05:41 message sent for move 34: took 2 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 35 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 35:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 35 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 35: took 3 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 36 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 36:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 36 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 36: took 3 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 37 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 37:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 37 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 37: took 2 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 38 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 38:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 38 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 38: took 3 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 39 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 39:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 39 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 39: took 4 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 40 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 40:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 40 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 40: took 2 milliseconds
+INFO:root:20/09/2014 17:05:42 calling getMove for turn 41 for player 1
+ERROR:root:20/09/2014 17:05:42 Unexpected error during turn 41:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:05:42 writing response back for turn 41 for player 1
+INFO:root:20/09/2014 17:05:42 message sent for move 41: took 3 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:05:59 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:05:59 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:05:59 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:05:59 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:05:59 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:05:59 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:06:00 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:06:00 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 14: took 4 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 15 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 15:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 15 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 15: took 4 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 16 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 16:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 16 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 16: took 3 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 17 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 17:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 17 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 17: took 4 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 18 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 18:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 18 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 18: took 3 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 19 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 19:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 19 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 20 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 20:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 20 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 20: took 3 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 21 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 21:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 21 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 21: took 3 milliseconds
+INFO:root:20/09/2014 17:06:01 calling getMove for turn 22 for player 1
+ERROR:root:20/09/2014 17:06:01 Unexpected error during turn 22:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:01 writing response back for turn 22 for player 1
+INFO:root:20/09/2014 17:06:01 message sent for move 22: took 3 milliseconds
+INFO:root:20/09/2014 17:06:02 calling getMove for turn 23 for player 1
+ERROR:root:20/09/2014 17:06:02 Unexpected error during turn 23:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:02 writing response back for turn 23 for player 1
+INFO:root:20/09/2014 17:06:02 message sent for move 23: took 3 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:06:21 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:06:21 message sent for move 1: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:06:24 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:06:24 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 3: took 2 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:06:25 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:06:25 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:06:26 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:06:26 message sent for move 11: took 1 milliseconds
+INFO:root:20/09/2014 17:06:26 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:06:26 message sent for move 12: took 6 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 6: took 1 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 7: took 3 milliseconds
+INFO:root:20/09/2014 17:06:29 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:06:29 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 11: took 3 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 16: took 1 milliseconds
+INFO:root:20/09/2014 17:06:30 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:06:30 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 20: took 2 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 21: took 2 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 22: took 1 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 23: took 1 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 24: took 1 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 25: took 1 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 26: took 2 milliseconds
+INFO:root:20/09/2014 17:06:31 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:06:31 message sent for move 27: took 2 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 28: took 2 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 29: took 2 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 30: took 1 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 31: took 1 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 32: took 1 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 33: took 2 milliseconds
+INFO:root:20/09/2014 17:06:32 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:06:32 message sent for move 34: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:06:35 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:06:35 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:06:35 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:06:35 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 4: took 2 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:06:36 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:06:36 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 15: took 2 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 16: took 1 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 19: took 1 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 20: took 2 milliseconds
+INFO:root:20/09/2014 17:06:37 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:06:37 message sent for move 21: took 1 milliseconds
+INFO:root:20/09/2014 17:06:38 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:06:38 message sent for move 22: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:06:40 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:06:40 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:06:40 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:06:40 message sent for move 2: took 2 milliseconds
+INFO:root:20/09/2014 17:06:40 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:06:40 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:06:40 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:06:40 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 6: took 1 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 12: took 3 milliseconds
+INFO:root:20/09/2014 17:06:41 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:06:41 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 15: took 2 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 16: took 1 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 18: took 2 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 21: took 2 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 22: took 1 milliseconds
+INFO:root:20/09/2014 17:06:42 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:06:42 message sent for move 23: took 1 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 24: took 1 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 25: took 2 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 26: took 1 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 27: took 1 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 28: took 2 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 29: took 1 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 30: took 2 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 31: took 1 milliseconds
+INFO:root:20/09/2014 17:06:43 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:06:43 message sent for move 32: took 1 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 33: took 2 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 34: took 1 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 35: took 1 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 36: took 1 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 37: took 1 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 38: took 1 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 39: took 3 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 40: took 2 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 17:06:44 message sent for move 41: took 3 milliseconds
+INFO:root:20/09/2014 17:06:44 calling getMove for turn 42 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 42: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 43 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 43: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 44 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 44: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 45 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 45: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 46 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 46: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 47 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 47: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 48 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 48: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 49 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 49: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 50 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 50: took 2 milliseconds
+INFO:root:20/09/2014 17:06:45 calling getMove for turn 51 for player 1
+INFO:root:20/09/2014 17:06:45 message sent for move 51: took 2 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 52 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 52: took 2 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 53 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 53: took 2 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 54 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 54: took 2 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 55 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 55: took 1 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 56 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 56: took 2 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 57 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 57: took 1 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 58 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 58: took 3 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 59 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 59: took 2 milliseconds
+INFO:root:20/09/2014 17:06:46 calling getMove for turn 60 for player 1
+INFO:root:20/09/2014 17:06:46 message sent for move 60: took 2 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 61 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 61: took 3 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 62 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 62: took 2 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 63 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 63: took 3 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 64 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 64: took 3 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 65 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 65: took 2 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 66 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 66: took 2 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 67 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 67: took 3 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 68 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 68: took 1 milliseconds
+INFO:root:20/09/2014 17:06:47 calling getMove for turn 69 for player 1
+INFO:root:20/09/2014 17:06:47 message sent for move 69: took 2 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 70 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 70: took 2 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 71 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 71: took 2 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 72 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 72: took 3 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 73 for player 1
+ERROR:root:20/09/2014 17:06:48 Unexpected error during turn 73:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:48 writing response back for turn 73 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 73: took 6 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 74 for player 1
+ERROR:root:20/09/2014 17:06:48 Unexpected error during turn 74:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:48 writing response back for turn 74 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 74: took 3 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 75 for player 1
+ERROR:root:20/09/2014 17:06:48 Unexpected error during turn 75:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:48 writing response back for turn 75 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 75: took 5 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 76 for player 1
+ERROR:root:20/09/2014 17:06:48 Unexpected error during turn 76:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:48 writing response back for turn 76 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 76: took 4 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 77 for player 1
+ERROR:root:20/09/2014 17:06:48 Unexpected error during turn 77:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:48 writing response back for turn 77 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 77: took 4 milliseconds
+INFO:root:20/09/2014 17:06:48 calling getMove for turn 78 for player 1
+ERROR:root:20/09/2014 17:06:48 Unexpected error during turn 78:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:48 writing response back for turn 78 for player 1
+INFO:root:20/09/2014 17:06:48 message sent for move 78: took 6 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 79 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 79:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 79 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 79: took 5 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 80 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 80:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 80 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 80: took 6 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 81 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 81:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 81 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 81: took 7 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 82 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 82:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 82 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 82: took 5 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 83 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 83:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 83 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 83: took 5 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 84 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 84:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 84 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 84: took 4 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 85 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 85:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 85 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 85: took 5 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 86 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 86:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 86 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 86: took 4 milliseconds
+INFO:root:20/09/2014 17:06:49 calling getMove for turn 87 for player 1
+ERROR:root:20/09/2014 17:06:49 Unexpected error during turn 87:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:49 writing response back for turn 87 for player 1
+INFO:root:20/09/2014 17:06:49 message sent for move 87: took 5 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 88 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 88:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 88 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 88: took 5 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 89 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 89:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 89 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 89: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 90 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 90:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 90 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 90: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 91 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 91:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 91 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 91: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 92 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 92:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 92 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 92: took 1 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 93 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 93:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 93 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 93: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 94 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 94:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 94 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 94: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 95 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 95:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 95 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 95: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 96 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 96:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 96 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 96: took 2 milliseconds
+INFO:root:20/09/2014 17:06:50 calling getMove for turn 97 for player 1
+ERROR:root:20/09/2014 17:06:50 Unexpected error during turn 97:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:50 writing response back for turn 97 for player 1
+INFO:root:20/09/2014 17:06:50 message sent for move 97: took 1 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 98 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 98:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 98 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 98: took 2 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 99 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 99:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 99 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 99: took 2 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 100 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 100:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 100 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 100: took 3 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 101 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 101:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 101 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 101: took 2 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 102 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 102:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 102 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 102: took 3 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 103 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 103:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 103 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 103: took 3 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 104 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 104:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 104 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 104: took 2 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 105 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 105:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 105 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 105: took 2 milliseconds
+INFO:root:20/09/2014 17:06:51 calling getMove for turn 106 for player 1
+ERROR:root:20/09/2014 17:06:51 Unexpected error during turn 106:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:51 writing response back for turn 106 for player 1
+INFO:root:20/09/2014 17:06:51 message sent for move 106: took 1 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 107 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 107:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 107 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 107: took 2 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 108 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 108:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 108 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 108: took 2 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 109 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 109:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 109 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 109: took 1 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 110 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 110:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 110 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 110: took 2 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 111 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 111:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 111 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 111: took 3 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 112 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 112:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 112 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 112: took 2 milliseconds
+INFO:root:20/09/2014 17:06:52 calling getMove for turn 113 for player 1
+ERROR:root:20/09/2014 17:06:52 Unexpected error during turn 113:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 56, in get_move
+    self.opponent_has_power = opponent_lightcycle['hasPowerUp']
+KeyError: 'hasPowerUp'
+INFO:root:20/09/2014 17:06:52 writing response back for turn 113 for player 1
+INFO:root:20/09/2014 17:06:52 message sent for move 113: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:07:23 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:07:23 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:07:23 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:07:23 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:07:23 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:07:23 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:07:23 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:07:23 message sent for move 4: took 0 milliseconds
+INFO:root:20/09/2014 17:07:23 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:07:23 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:07:23 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:07:23 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 10: took 3 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 12: took 1 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 14: took 20 milliseconds
+INFO:root:20/09/2014 17:07:24 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:07:24 message sent for move 15: took 2 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 16: took 4 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 17: took 2 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 18: took 2 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 19: took 1 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 21: took 2 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 22: took 1 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 23: took 1 milliseconds
+INFO:root:20/09/2014 17:07:25 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:07:25 message sent for move 24: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:07:30 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:07:30 message sent for move 9: took 3 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 11: took 1 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 12: took 1 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 14: took 2 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 16: took 1 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 17: took 2 milliseconds
+INFO:root:20/09/2014 17:07:31 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:07:31 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 19: took 1 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 20: took 2 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 21: took 3 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 22: took 2 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 23: took 1 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 24: took 2 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 25: took 2 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 26: took 2 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 27: took 1 milliseconds
+INFO:root:20/09/2014 17:07:32 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:07:32 message sent for move 28: took 1 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 29: took 2 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 30: took 1 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 31: took 2 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 32: took 1 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 33: took 1 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 34: took 2 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 35: took 2 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 36: took 4 milliseconds
+INFO:root:20/09/2014 17:07:33 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 17:07:33 message sent for move 37: took 2 milliseconds
+INFO:root:20/09/2014 17:07:34 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 17:07:34 message sent for move 38: took 3 milliseconds
+INFO:root:20/09/2014 17:07:34 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 17:07:34 message sent for move 39: took 2 milliseconds
+INFO:root:20/09/2014 17:07:34 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 17:07:34 message sent for move 40: took 2 milliseconds
+INFO:root:20/09/2014 17:07:34 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 17:07:34 message sent for move 41: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:07:37 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:07:37 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:07:37 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:07:37 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:07:37 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:07:37 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:07:37 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:07:37 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:07:37 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:07:37 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:07:37 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:07:37 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 12: took 1 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:07:38 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:07:38 message sent for move 15: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 4: took 2 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:07:42 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:07:42 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 16: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 17: took 2 milliseconds
+INFO:root:20/09/2014 17:07:43 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:07:43 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 19: took 1 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 21: took 2 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 22: took 2 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 23: took 1 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 24: took 14 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 25: took 2 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 26: took 2 milliseconds
+INFO:root:20/09/2014 17:07:44 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:07:44 message sent for move 27: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 28: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 29: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 30: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 31: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 32: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 33: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 34: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 35: took 2 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 36: took 1 milliseconds
+INFO:root:20/09/2014 17:07:45 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 17:07:45 message sent for move 37: took 1 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 38: took 2 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 39: took 1 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 40: took 2 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 41: took 1 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 42 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 42: took 2 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 43 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 43: took 2 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 44 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 44: took 1 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 45 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 45: took 1 milliseconds
+INFO:root:20/09/2014 17:07:46 calling getMove for turn 46 for player 1
+INFO:root:20/09/2014 17:07:46 message sent for move 46: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 47 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 47: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 48 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 48: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 49 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 49: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 50 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 50: took 2 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 51 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 51: took 2 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 52 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 52: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 53 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 53: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 54 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 54: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 55 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 55: took 1 milliseconds
+INFO:root:20/09/2014 17:07:47 calling getMove for turn 56 for player 1
+INFO:root:20/09/2014 17:07:47 message sent for move 56: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 57 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 57: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 58 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 58: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 59 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 59: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 60 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 60: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 61 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 61: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 62 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 62: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 63 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 63: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 64 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 64: took 1 milliseconds
+INFO:root:20/09/2014 17:07:48 calling getMove for turn 65 for player 1
+INFO:root:20/09/2014 17:07:48 message sent for move 65: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 66 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 66: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 67 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 67: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 68 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 68: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 69 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 69: took 2 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 70 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 70: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 71 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 71: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 72 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 72: took 1 milliseconds
+INFO:root:20/09/2014 17:07:49 calling getMove for turn 73 for player 1
+INFO:root:20/09/2014 17:07:49 message sent for move 73: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 1: took 0 milliseconds
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 4: took 2 milliseconds
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:07:52 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:07:52 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 14: took 2 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:07:53 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:07:53 message sent for move 16: took 2 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 18: took 2 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 19: took 1 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 20: took 2 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 21: took 1 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 22: took 1 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 23: took 1 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 24: took 1 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 25: took 2 milliseconds
+INFO:root:20/09/2014 17:07:54 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:07:54 message sent for move 26: took 1 milliseconds
+INFO:root:20/09/2014 17:07:55 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:07:55 message sent for move 27: took 2 milliseconds
+INFO:root:20/09/2014 17:07:55 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:07:55 message sent for move 28: took 1 milliseconds
+INFO:root:20/09/2014 17:07:55 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:07:55 message sent for move 29: took 1 milliseconds
+INFO:root:20/09/2014 17:07:55 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:07:55 message sent for move 30: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:07:57 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:07:57 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:07:57 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:07:57 message sent for move 2: took 2 milliseconds
+INFO:root:20/09/2014 17:07:57 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:07:57 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 8: took 2 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:07:58 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:07:58 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 14: took 2 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 15: took 2 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 16: took 1 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 18: took 2 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 21: took 2 milliseconds
+INFO:root:20/09/2014 17:07:59 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:07:59 message sent for move 22: took 3 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 23 for player 1
+ERROR:root:20/09/2014 17:08:00 Unexpected error during turn 23:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 57, in get_move
+    if self.opponent_has_power == true:
+NameError: global name 'true' is not defined
+INFO:root:20/09/2014 17:08:00 writing response back for turn 23 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 23: took 5 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 24: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 25: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 26: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 27: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 28: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 29: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 30: took 2 milliseconds
+INFO:root:20/09/2014 17:08:00 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:08:00 message sent for move 31: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 32 for player 1
+ERROR:root:20/09/2014 17:08:01 Unexpected error during turn 32:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 57, in get_move
+    if self.opponent_has_power == true:
+NameError: global name 'true' is not defined
+INFO:root:20/09/2014 17:08:01 writing response back for turn 32 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 32: took 4 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 33: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 34: took 1 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 35: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 36: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 37: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 38: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 39: took 2 milliseconds
+INFO:root:20/09/2014 17:08:01 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 17:08:01 message sent for move 40: took 2 milliseconds
+INFO:root:20/09/2014 17:08:02 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 17:08:02 message sent for move 41: took 2 milliseconds
+INFO:root:20/09/2014 17:08:02 calling getMove for turn 42 for player 1
+INFO:root:20/09/2014 17:08:02 message sent for move 42: took 2 milliseconds
+INFO:root:20/09/2014 17:08:02 calling getMove for turn 43 for player 1
+INFO:root:20/09/2014 17:08:02 message sent for move 43: took 1 milliseconds
+INFO:root:20/09/2014 17:08:02 calling getMove for turn 44 for player 1
+INFO:root:20/09/2014 17:08:02 message sent for move 44: took 2 milliseconds
+INFO:root:20/09/2014 17:08:02 calling getMove for turn 45 for player 1
+INFO:root:20/09/2014 17:08:02 message sent for move 45: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 6: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 7: took 3 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:08:22 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:08:22 message sent for move 9: took 1 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 11: took 5 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 12: took 1 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 14: took 2 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 15: took 2 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 16: took 2 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:08:23 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:08:23 message sent for move 19: took 1 milliseconds
+INFO:root:20/09/2014 17:08:24 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:08:24 message sent for move 20: took 2 milliseconds
+INFO:root:20/09/2014 17:08:24 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:08:24 message sent for move 21: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:08:26 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:08:26 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:08:27 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:08:27 message sent for move 2: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:08:31 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:08:31 message sent for move 1: took 1 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 1: took 2 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 2: took 4 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 7: took 2 milliseconds
+INFO:root:20/09/2014 17:08:34 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:08:34 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 10: took 2 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 11: took 1 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 13: took 2 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 14: took 2 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 16: took 2 milliseconds
+INFO:root:20/09/2014 17:08:35 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:08:35 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 18: took 1 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 19 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 19: took 2 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 20 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 20: took 1 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 21 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 21: took 2 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 22 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 22: took 2 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 23 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 23: took 2 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 24 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 24: took 1 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 25 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 25: took 2 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 26 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 26: took 1 milliseconds
+INFO:root:20/09/2014 17:08:36 calling getMove for turn 27 for player 1
+INFO:root:20/09/2014 17:08:36 message sent for move 27: took 2 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 28 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 28: took 2 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 29 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 29: took 1 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 30 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 30: took 1 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 31 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 31: took 1 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 32 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 32: took 1 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 33 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 33: took 2 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 34 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 34: took 2 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 35 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 35: took 2 milliseconds
+INFO:root:20/09/2014 17:08:37 calling getMove for turn 36 for player 1
+INFO:root:20/09/2014 17:08:37 message sent for move 36: took 1 milliseconds
+INFO:root:20/09/2014 17:08:38 calling getMove for turn 37 for player 1
+INFO:root:20/09/2014 17:08:38 message sent for move 37: took 2 milliseconds
+INFO:root:20/09/2014 17:08:38 calling getMove for turn 38 for player 1
+INFO:root:20/09/2014 17:08:38 message sent for move 38: took 3 milliseconds
+INFO:root:20/09/2014 17:08:38 calling getMove for turn 39 for player 1
+INFO:root:20/09/2014 17:08:38 message sent for move 39: took 3 milliseconds
+INFO:root:20/09/2014 17:08:38 calling getMove for turn 40 for player 1
+INFO:root:20/09/2014 17:08:38 message sent for move 40: took 1 milliseconds
+INFO:root:20/09/2014 17:08:38 calling getMove for turn 41 for player 1
+INFO:root:20/09/2014 17:08:38 message sent for move 41: took 2 milliseconds
+INFO:root:20/09/2014 17:08:38 calling getMove for turn 42 for player 1
+INFO:root:20/09/2014 17:08:38 message sent for move 42: took 2 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:41:47 calling getMove for turn 1 for player 1
+ERROR:root:20/09/2014 17:41:47 Unexpected error during turn 1:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:47 writing response back for turn 1 for player 1
+INFO:root:20/09/2014 17:41:47 message sent for move 1: took 3 milliseconds
+INFO:root:20/09/2014 17:41:47 calling getMove for turn 2 for player 1
+ERROR:root:20/09/2014 17:41:47 Unexpected error during turn 2:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:47 writing response back for turn 2 for player 1
+INFO:root:20/09/2014 17:41:47 message sent for move 2: took 2 milliseconds
+INFO:root:20/09/2014 17:41:47 calling getMove for turn 3 for player 1
+ERROR:root:20/09/2014 17:41:47 Unexpected error during turn 3:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:47 writing response back for turn 3 for player 1
+INFO:root:20/09/2014 17:41:47 message sent for move 3: took 2 milliseconds
+INFO:root:20/09/2014 17:41:47 calling getMove for turn 4 for player 1
+ERROR:root:20/09/2014 17:41:47 Unexpected error during turn 4:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:47 writing response back for turn 4 for player 1
+INFO:root:20/09/2014 17:41:47 message sent for move 4: took 3 milliseconds
+INFO:root:20/09/2014 17:41:48 calling getMove for turn 5 for player 1
+ERROR:root:20/09/2014 17:41:48 Unexpected error during turn 5:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:48 writing response back for turn 5 for player 1
+INFO:root:20/09/2014 17:41:48 message sent for move 5: took 3 milliseconds
+INFO:root:20/09/2014 17:41:48 calling getMove for turn 6 for player 1
+ERROR:root:20/09/2014 17:41:48 Unexpected error during turn 6:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:48 writing response back for turn 6 for player 1
+INFO:root:20/09/2014 17:41:48 message sent for move 6: took 4 milliseconds
+INFO:root:20/09/2014 17:41:48 calling getMove for turn 7 for player 1
+ERROR:root:20/09/2014 17:41:48 Unexpected error during turn 7:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:48 writing response back for turn 7 for player 1
+INFO:root:20/09/2014 17:41:48 message sent for move 7: took 4 milliseconds
+INFO:root:20/09/2014 17:41:48 calling getMove for turn 8 for player 1
+ERROR:root:20/09/2014 17:41:48 Unexpected error during turn 8:
+Traceback (most recent call last):
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\lib\tronclient\Client.py", line 125, in runClient
+    move = ai.get_move(map_info, players[1], players[0], msg.responseID)
+  File "C:\Users\Jason\Documents\GitHub\orbis2014\OrbisChallengeDevKit-Python\tronplayer\PlayerAI.py", line 58, in get_move
+    if op_direction == DIR.UP :
+NameError: global name 'DIR' is not defined
+INFO:root:20/09/2014 17:41:48 writing response back for turn 8 for player 1
+INFO:root:20/09/2014 17:41:48 message sent for move 8: took 3 milliseconds
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:42:34 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:42:34 message sent for move 1: took 2 milliseconds
+INFO:root:20/09/2014 17:42:34 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:42:34 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:42:34 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:42:34 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:42:34 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:42:34 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:42:34 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:42:34 message sent for move 5: took 2 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 6: took 1 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 12: took 3 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 14: took 1 milliseconds
+INFO:root:20/09/2014 17:42:35 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:42:35 message sent for move 15: took 1 milliseconds
+INFO:root:20/09/2014 17:42:36 calling getMove for turn 16 for player 1
+INFO:root:20/09/2014 17:42:36 message sent for move 16: took 2 milliseconds
+INFO:root:20/09/2014 17:42:36 calling getMove for turn 17 for player 1
+INFO:root:20/09/2014 17:42:36 message sent for move 17: took 1 milliseconds
+INFO:root:20/09/2014 17:42:36 calling getMove for turn 18 for player 1
+INFO:root:20/09/2014 17:42:36 message sent for move 18: took 2 milliseconds
+INFO:root:Socket broken or connection closed - data was empty while attempting to read
+INFO:root:=============STARTING A NEW GAME=============
+INFO:root:20/09/2014 17:49:07 calling getMove for turn 1 for player 1
+INFO:root:20/09/2014 17:49:07 message sent for move 1: took 1 milliseconds
+INFO:root:20/09/2014 17:49:07 calling getMove for turn 2 for player 1
+INFO:root:20/09/2014 17:49:07 message sent for move 2: took 1 milliseconds
+INFO:root:20/09/2014 17:49:07 calling getMove for turn 3 for player 1
+INFO:root:20/09/2014 17:49:07 message sent for move 3: took 1 milliseconds
+INFO:root:20/09/2014 17:49:07 calling getMove for turn 4 for player 1
+INFO:root:20/09/2014 17:49:07 message sent for move 4: took 1 milliseconds
+INFO:root:20/09/2014 17:49:07 calling getMove for turn 5 for player 1
+INFO:root:20/09/2014 17:49:07 message sent for move 5: took 1 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 6 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 6: took 2 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 7 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 7: took 1 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 8 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 8: took 1 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 9 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 9: took 2 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 10 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 10: took 1 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 11 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 11: took 2 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 12 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 12: took 2 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 13 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 13: took 1 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 14 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 14: took 2 milliseconds
+INFO:root:20/09/2014 17:49:08 calling getMove for turn 15 for player 1
+INFO:root:20/09/2014 17:49:08 message sent for move 15: took 1 milliseconds
