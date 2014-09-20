@@ -1,12 +1,43 @@
 import random
 from tronclient.Client import *
+import time
+
+class Powers():
+	def __init__(self, x, y):
+		self.pos_x = x
+		self.pos_y = y;
+		return
+	
+	def find_shortest(self):
+		return
+	
+	def find_longest(self):
+		return
 
 class PlayerAI():
 
 	def __init__(self):
+		opponent_has_power = false;
 		return
 
 	def new_game(self, game_map, player_lightcycle, opponent_lightcycle):
+		start = time.time()
+		map_file = open('map.csv','w')
+		map_length = len(game_map)
+		map = [[0 for j in range(map_length)] for i in range(map_length)]
+		powerups = []
+		for i in range(map_length):
+			for j in range(map_length):
+				map[i][j] = game_map[j][i]
+				if map[i][j] == 'powerup':
+					x = Powers(j,i)
+					powerups.append(x)
+				map_file.write('%s,'%(map[i][j]))
+			map_file.write('\n')
+		for i in range(len(powerups)):
+			print '%d %d, '%(powerups[i].pos_x,powerups[i].pos_y)
+		end = time.time()
+		print end - start
 		return
 
 	def get_move(self, game_map, player_lightcycle, opponent_lightcycle, moveNumber):
@@ -16,14 +47,49 @@ class PlayerAI():
 		my_y = my_position[1]
 		my_direction = player_lightcycle['direction']
 		
+		opponent_position = opponent_lightcycle['position']
+		opponent_x = opponent_position[0]
+		opponent_y = opponent_position[1]
+		opponent_direction = opponent_lightcycle['direction']
+		
+		if opponent_lightcycle['hasPowerUp'] != opponent_has_power :
+			opponent_has_power = opponent_lightcycle['hasPowerUp']
+			if opponent_has_power == true:
+				#Obtained power
+				print 
+			else
+				#used
+		#Update map
+		
+		'''
+		Algo:
+		If path exists bwt players (Note if mine: go to cut off)
+			Yes => Offensive
+			No => Powerup check
+			
+		Offensive:
+			Maximize our area
+			
+		Powerup check:
+			If invincibility && we have less area,
+				cut into opponent area
+			If bomb,
+				Cut more into opponent area
+			Else
+				Circle
+		'''	
 		randMove = random.randint(0, 3)
 		if randMove == 0:
+			#print "LEFT"
 			return PlayerActions.MOVE_LEFT
 		elif randMove == 1:
+			#print "RIGHT"
 			return PlayerActions.MOVE_RIGHT
 		elif randMove == 2:
+			#print "DOWN"
 			return PlayerActions.MOVE_DOWN
 		else:
+			#print "UP"
 			return PlayerActions.MOVE_UP
 '''
 
